@@ -13,7 +13,7 @@ const express = require('express') // which style are you choosing , common or i
 
 
 const app = express() // using express we have created a var app , it is a powerful variable such that we can use numbers of methods like app./ 
-const PORT = 4000 // like USB Port in computer we have 65,535 Virtuals Ports among these some are free to use
+const PORT = 3000 // like USB Port in computer we have 65,535 Virtuals Ports among these some are free to use
 
 app.get('/', (req, res) => {
   res.send(`Hello World! This is port no: ${PORT} `) // ## Each time we need to update server// here in app.get if we get request 'req' in home route "/" we give responce 'res' ->  "Hello world!".
